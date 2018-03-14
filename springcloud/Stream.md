@@ -1,4 +1,6 @@
-## 1.简介
+> 基于版本--Edgware.RELEASE
+
+## 24.简介
 
 __Spring Cloud Stream__ 是一个创建消息驱动微服务应用的框架。它基于__Spring Boot__创建独立的、工业级的Spring应用，使用__Spring Integration__实现与消息代理之间的连接。它约定了不同中间件相应的配置，引入了持久化发布订阅机制、消费者组和分区的概念。
 
@@ -56,7 +58,7 @@ public class StreamApplicationTests {
 
 
 
-##  2.主要概念
+##  25.主要概念
 
 Spring Cloud Stream 提供了很多抽象和元组件来简化消息驱动微服务应用。概述如下：
 
@@ -70,7 +72,9 @@ Spring Cloud Stream 提供了很多抽象和元组件来简化消息驱动微服
 
 
 
+###  25.1应用模型
 
+一个stream应用就包含了一个核心中性的中间件。应用通过由Stream注入的input和output频道与外部通信。Channel是通过特定的中间件Binder来连接外部的broker的。
 
 
 
