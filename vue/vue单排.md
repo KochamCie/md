@@ -6,6 +6,9 @@
    - cnpm -v   不行就配置环境变量
 3. 安装webpack
    - npm install webpack -g
+   - 当前项目npm install webpack --save-dev
+   - webpack后提示npm install webpack-cli -D
+   - 然后npm i -g webpack-cli -D --save
    - webpack -v
 4. 安装vue-cli
    - npm install vue-cli -g
@@ -26,11 +29,23 @@
      - npm install
      - npm run dev
 
-3. 安装vue路由模块 vue-router和网络请求模块vue-resource
+   ​
+
+3. 安装vue路由模块 vue-router和网络请求模块vue-resource，页面跳转
 
    - cnpm install vue-router vue-resource --save
 
-4. 如果npm install 卡在chromedriver ，则使用淘宝
+4. 后端请求交互
+
+   - npm install --save axios
+
+5. cnpm i element-ui -S
+
+6. ​
+
+   ​
+
+7. 如果npm install 卡在chromedriver ，则使用淘宝
 
    - ```shell
      npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver

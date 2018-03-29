@@ -31,3 +31,12 @@
 > 虚拟机性能监控与故障处理工具
 
 - jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler
+  - jps：虚拟机进程状况工具
+  - jstat：虚拟机统计信息监视工具
+  - jinfo：java配置信息工具
+  - jmap：java内存映像工具
+  - jhat：虚拟机堆转储快照分析工具
+  - jstack：java堆栈跟踪工具
+  - hsdis：jit生成代码反汇编
+  - jconsole：java监视与管理控制台
+  - visualvm：多合一故障处理工具
